@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".CustomListView">
+
+    <ImageView
+        android:id="@+id/imageIcon"
+        android:layout_width="16dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:maxLength="10"
+        android:text="my text"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:maxLength="10"
+        android:text="my text"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/heure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:maxLength="10"
+        android:text="my text"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/salle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:maxLength="10"
+        android:text="my text"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/imageIcon1"
+        android:layout_width="34dp"
+        android:layout_height="26dp"
+         />
+
+    <ImageView
+        android:id="@+id/imageadd"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:onClick="ajouter"
+        android:layout_marginLeft="5dp" />
+
+
+</LinearLayout>
